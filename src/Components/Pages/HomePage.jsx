@@ -1,8 +1,9 @@
 import Navbar from '../Navbar';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import QGis from '../MapComponents'
+import 'react-leaflet';
 import '../../Style/HomePage.css'
-import MapComponent from './MapComponent';
 
 function HomePage() {
   return (
@@ -11,8 +12,8 @@ function HomePage() {
         <Navbar />
       </div>
       <div className="container mt-2 text-center">
-        <h1>Bandung</h1>
-        <MapComponent/>
+        <h1>Kabupaten Cimahi</h1>
+        <QGis/>
       </div>
     </div>
   );
