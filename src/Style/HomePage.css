@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.landingpage{
+    min-height: 100vh; /* Set minimum tinggi layar */
+    min-width: calc(30vw - 2rem); /* Menetapkan tinggi sesuai tinggi viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
